@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { Switch, Route } from 'react-router-dom';
 import MyNavbar from "./components/Navbar";
 import Home from "./components/Home";
 import Services from "./components/Services";
@@ -12,19 +12,17 @@ import DemoProjects from './components/DemoProjects';
 function App() {
   return (
     <>
-      <Router>
-        <MyNavbar />
-        <div className='div-main-container'>
-          <Switch>
-            <Route path="/" exact component={Home} />
-            <Route path="/services" exact component={Services} />
-            <Route path="/clients" exact component={Clients} />
-            <Route path="/contact" exact component={ContactUs} />
-            <Route path="/demoproject" exact component={DemoProjects} />
-            <Route path="/admin" exact component={Admin} />
-          </Switch>
-        </div>
-      </Router>
+      <MyNavbar />
+      <div className='div-main-container'>
+        <Switch>
+          <Route path="/" exact component={Home} />
+          <Route path="/services" exact component={Services} />
+          <Route path="/clients" exact component={Clients} />
+          <Route path="/contact" exact component={ContactUs} />
+          <Route path="/demoproject" exact component={DemoProjects} />
+          <Route path="/admin" exact component={Admin} />
+        </Switch>
+      </div>
       <Footer />
     </>
   );
