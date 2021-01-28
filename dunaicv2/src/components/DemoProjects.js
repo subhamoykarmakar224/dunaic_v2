@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
 import { 
   Container, Card, CardDeck, Button
 } from 'react-bootstrap'
@@ -17,7 +16,7 @@ function DemoProjects() {
             <Card.Text>
               This website is a responsive live covid tracket and was built using React.
             </Card.Text>
-            <a href="https://covid-19-tracker-34cc5.web.app/" target="_blank">
+            <a href="https://covid-19-tracker-34cc5.web.app/"  rel="noreferrer" target="_blank">
               <Button variant="outline-primary">Visit Website</Button>
             </a>
           </Card.Body>
