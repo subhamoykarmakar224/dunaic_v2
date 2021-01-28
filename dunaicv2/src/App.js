@@ -1,11 +1,32 @@
 import './App.css';
-import Button from 'react-bootstrap/Button';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import MyNavbar from "./components/Navbar";
+import Home from "./components/Home";
+import Services from "./components/Services";
+import Clients from "./components/Clients";
+import ContactUs from "./components/ContactUs";
+import Admin from "./components/Admin";
+import Footer from './components/Footer';
+import DemoProjects from './components/DemoProjects';
 
 function App() {
   return (
-    <div className="App">
-      <h1>DUNAIC</h1>
-    </div>
+    <>
+      <Router>
+        <MyNavbar />
+        <div className='div-main-container'>
+          <Switch>
+            <Route path="/" exact component={Home} />
+            <Route path="/services" exact component={Services} />
+            <Route path="/clients" exact component={Clients} />
+            <Route path="/contact" exact component={ContactUs} />
+            <Route path="/demoproject" exact component={DemoProjects} />
+            <Route path="/admin" exact component={Admin} />
+          </Switch>
+        </div>
+      </Router>
+      <Footer />
+    </>
   );
 }
 

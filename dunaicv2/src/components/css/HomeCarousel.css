@@ -1,0 +1,23 @@
+.home-cards {
+  width: 300px;
+  border-radius: 10px;
+  height: 560px;
+}
+
+.card-img {
+  padding: 20px;
+} 
+
+a {
+  text-decoration: none;
+}
+
+button:hover {
+  text-decoration: none !important;
+  color:white !important;
+}
+
+a:hover {
+  text-decoration: none;
+  color:white;
+}
