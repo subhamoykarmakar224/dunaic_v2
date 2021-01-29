@@ -1,0 +1,17 @@
+.slider-div {
+  margin-top: 20px;
+}
+
+.div-add-feedback {
+  cursor: pointer;
+  position: relative;
+}
+
+.div-add-feedback img {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -25px 0 0 -25px;
+}

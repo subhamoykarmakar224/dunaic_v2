@@ -2,10 +2,10 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import './css/Home.css';
 import HomeCarousel from './HomeCarousel';
-import ClientFeedback from './ClientFeedback';
 import {
   Container, Button
 } from 'react-bootstrap';
+import Feedback from './Feedback';
 
 function Home() {
   return (
@@ -24,8 +24,7 @@ function Home() {
         </Link>
         <br />
         <br />
-        <h4>CLIENTS FEEDBACK</h4>
-        <ClientFeedback />
+        <Feedback />
       </Container>
     </>
   )

@@ -2,10 +2,15 @@
   padding-top: 10px;
 }
 
-.card {
-  margin: 20px;
+.card-person {
+  margin: 10px;
 }
 
 .form-btns {
   margin-left: 10px;
+}
+
+.card-contact-form {
+  margin: 10px;
+  padding: 5px;
 }
