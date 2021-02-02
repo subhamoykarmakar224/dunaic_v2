@@ -36,42 +36,42 @@ function HomeCarousel() {
         <div>
           <HomeCarouselItem
             src='/assets/img/home/sde.png'
-            title='Software Development'
+            title='SOFTWARE DEVELOPMENT'
             desc='CUSTOM APPLICATION SOFTWARE DEVELOPMENT IS THE PROCESS TO AUTOMATE BUSINESS PROCESS.'
           />
         </div>
         <div>
           <HomeCarouselItem
             src='/assets/img/home/analytics_dev.png'
-            title='Software Development'
+            title='DATA ANALYTICS'
             desc='TOOLS OR ALGORITHMS FOR PROVIDING HIDDEN INSIGHTS OR PATTERNS FROM RAW DATA.'
           />
         </div>
         <div>
           <HomeCarouselItem
             src='/assets/img/home/iot_dev.png'
-            title='Internet-of-Things'
+            title='INTERNET-OF-THINGS'
             desc='PREPARE FOR THE INEVITABLE CHANGE THAT WILL TRANSFORM ALL INDUSTRIES BY BLURRING THE LINES BETWEEN PHYSICAL SPACE AND CYBERSPACE.'
           />
         </div>
         <div>
           <HomeCarouselItem
             src='/assets/img/home/mobile_dev.png'
-            title='Mobile Development'
+            title='MOBILE DEVELOPMENT'
             desc='MOBILE APPLICATION DEVELOPMENT BY WHICH APPLICATION SOFTWARE IS DEVELOPED FOR HANDHELD DEVICES.'
           />
         </div>
         <div>
           <HomeCarouselItem
             src='/assets/img/home/uav_dev.png'
-            title='Software Development'
+            title='UAV'
             desc='ON-DEMAND AERIAL DELIVERY/SURVEILLANCE PLATFORM FOR ALL ENVIRONMENTS: END-TO-END SOLUTION INTEGRATING DRONES, DOCKING STATIONS AND SOFTWARE SOLUTIONS ON CLOUD. WE PROVIDE SERVICE TO HEALTHCARE, E-COMMERCE, AND MORE.'
           />
         </div>
         <div>
           <HomeCarouselItem
             src='/assets/img/home/web_dev.png'
-            title='Software Development'
+            title='WEB DEVELOPMENT'
             desc='BUILD WEBSITE THAT WORK EFFORTLESSLY ON ALL MOBILE AND WEB PLATFORM.'
           />
         </div>

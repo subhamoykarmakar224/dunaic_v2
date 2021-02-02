@@ -111,7 +111,7 @@ function ContactUs() {
                   <Card.Title>Manoj Raju</Card.Title>
                   <Card.Text>
                     <b>Director<br />
-                  dunaic.mr@gmail.com</b> <br />
+                    dunaic.mr@gmail.com</b> <br />
                   Business Developer & Market Player with focus on strategic management and innovation. B.Tech | PGD| MBA (Intertnational Business)
                 </Card.Text>
                 </Card.Body>
